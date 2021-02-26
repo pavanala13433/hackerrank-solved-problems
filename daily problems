@@ -1,1 +1,16 @@
 
+int main() 
+{
+	int a,b;
+	int func( int,int,string);
+	string s;
+	cout<<"enter a ,b";
+	cin >> a>>b;
+	cout<<"enter string";
+	cin.ignore();
+	getline(cin,s);		
+	
+	cout<<fun(a,b,s)	;
+	return 0;					
+			
+}
